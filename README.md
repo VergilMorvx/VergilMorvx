@@ -1,10 +1,38 @@
 # 💫 About Me:
-🔭 I’m currently working on: tools refinement • OSINT automation • Windows/Python releases
-🤝 Looking for help with: PyQt6 UX • CI/CD • resilient scraping
-🌱 Learning: penetration testing • secure coding • tool architecture
-💬 Ask me about: pentesting • OSINT • Python automation
-⚡ Fun fact: I turn manual tasks into one-click tools
-🛡️ Security interests: OSINT • web security • threat intel • privacy-first tooling
+🔭 I’m currently working on<br />
+• Refining and maintaining my existing tools (stability, UX, docs)<br />
+• Small security automation scripts for recon / OSINT (ethical use)<br />
+• Packaging & release flow for Windows + Python projects<br />
+<br />
+
+🤝 I’m looking for help with<br />
+• UI/UX polish + onboarding (PyQt6 desktop apps)<br />
+• CI/CD & reliable Windows builds (PyInstaller, versioning)<br />
+• More resilient scraping/parsing (edge cases, rate limits)<br />
+<br />
+
+🌱 I’m currently learning<br />
+• Penetration testing methodology & reporting<br />
+• Secure coding patterns (validation, logging hygiene, secrets)<br />
+• Better tool architecture (clean modules, configs, tests)<br />
+<br />
+
+💬 Ask me about<br />
+• Penetration testing (authorized / ethical) & recon workflows<br />
+• OSINT automation + username enumeration / dorking<br />
+• Python tooling (Selenium, BeautifulSoup, SQLite, PyQt6)<br />
+• Turning messy workflows into clean, auditable open-source tools<br />
+<br />
+
+⚡ Fun fact<br />
+• I turn annoying manual tasks into one-click tools<br />
+<br />
+
+🛡️ Security interests<br />
+• OSINT & reconnaissance automation<br />
+• Web application security testing & remediation<br />
+• Threat intel workflows (collect → normalize → enrich)<br />
+• Privacy-first, auditable tooling (no telemetry)<br />
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vergilmorvx) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/abdullah-mohammed-791498273) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yourstrulyabdullah@gmail.com) 
