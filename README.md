@@ -1,6 +1,33 @@
 # 💫 About Me:
-🔭 I’m currently working on<br><br>Refining and maintaining my existing tools (better stability, UX, and documentation)<br><br>Building small security automation scripts for recon/OSINT (for ethical use)<br><br>Improving packaging/release flow for my Windows + Python projects<br><br>🤝 I’m looking for help with<br><br>UI/UX polish + onboarding for desktop tools (PyQt6)<br><br>CI/CD + reliable Windows builds (PyInstaller, versioning, releases)<br><br>Making scraping/parsing more resilient (edge cases, rate limits, failures)<br><br>🌱 I’m currently learning<br><br>Deeper penetration testing methodology + reporting<br><br>Secure coding patterns (validation, logging hygiene, secrets handling)<br><br>Better tool architecture (clean modules, configs, tests)<br><br>💬 Ask me about<br><br>Penetration testing (authorized/ethical) & recon workflows<br><br>OSINT automation + username enumeration / dorking<br><br>Python: Selenium, BeautifulSoup, SQLite, PyQt6<br><br>Turning messy workflows into clean, auditable open-source tools<br><br>⚡ Fun fact<br><br>I turn annoying manual tasks into one-click tools<br><br>🛡️ Security interests<br><br>OSINT & reconnaissance automation<br><br>Web application security testing + remediation mindset<br><br>Threat intel workflows (collect → normalize → enrich)<br><br>Privacy-first, auditable tooling (no telemetry, no mystery behavior)
+🔭 I’m currently working on
+Refining and maintaining my existing tools (better stability, UX, and documentation)
+Building small security automation scripts for recon/OSINT (for ethical use)
+Improving packaging/release flow for my Windows + Python projects
 
+🤝 I’m looking for help with
+UI/UX polish + onboarding for desktop tools (PyQt6)
+CI/CD + reliable Windows builds (PyInstaller, versioning, releases)
+Making scraping/parsing more resilient (edge cases, rate limits, failures)
+
+🌱 I’m currently learning
+Deeper penetration testing methodology + reporting
+Secure coding patterns (validation, logging hygiene, secrets handling)
+Better tool architecture (clean modules, configs, tests)
+
+💬 Ask me about
+Penetration testing (authorized/ethical) & recon workflows
+OSINT automation + username enumeration / dorking
+Python: Selenium, BeautifulSoup, SQLite, PyQt6
+Turning messy workflows into clean, auditable open-source tools
+
+⚡ Fun fact
+I turn annoying manual tasks into one-click tools
+
+🛡️ Security interests
+OSINT & reconnaissance automation
+Web application security testing + remediation mindset
+Threat intel workflows (collect → normalize → enrich)
+Privacy-first, auditable tooling (no telemetry, no mystery behavior)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vergilmorvx) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/abdullah-mohammed-791498273) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yourstrulyabdullah@gmail.com) 
