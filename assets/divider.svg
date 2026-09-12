@@ -1,69 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130">
 
+  <defs>
+
+    <pattern id="wood" width="96" height="32" patternUnits="userSpaceOnUse">
+
+      <rect width="96" height="32" fill="#5d4027"/>
+
+      <rect x="0" y="0" width="96" height="4" fill="#7a5533"/>
+      <rect x="0" y="28" width="96" height="4" fill="#342316"/>
+
+      <rect x="10" y="9" width="28" height="4" fill="#725035"/>
+      <rect x="48" y="17" width="35" height="4" fill="#3f2b1b"/>
+
+      <rect x="87" y="7" width="5" height="5" fill="#2d1e13"/>
+
+    </pattern>
+
+
+    <pattern id="stone" width="48" height="48" patternUnits="userSpaceOnUse">
+
+      <rect width="48" height="48" fill="#34393d"/>
+
+      <rect x="4" y="4" width="17" height="17" fill="#464b50"/>
+      <rect x="27" y="3" width="16" height="19" fill="#2b3033"/>
+
+      <rect x="3" y="27" width="21" height="16" fill="#303438"/>
+      <rect x="29" y="28" width="14" height="15" fill="#474c50"/>
+
+    </pattern>
+
+  </defs>
+
+
+  <rect width="1200" height="130" fill="url(#stone)"/>
+
+
+  <!-- outer block frame -->
   <rect
-    width="1200"
-    height="36"
-    fill="#0b1118"
+    x="18"
+    y="18"
+    width="1164"
+    height="94"
+    fill="#15191b"
+    stroke="#0d1012"
+    stroke-width="10"
   />
 
+
+  <!-- inset wooden panel -->
   <rect
-    x="0"
-    y="13"
-    width="1200"
-    height="10"
-    fill="#26372d"
+    x="42"
+    y="34"
+    width="1116"
+    height="62"
+    fill="url(#wood)"
+    stroke="#2e1f14"
+    stroke-width="6"
   />
 
-  <!-- Left green blocks -->
+
+  <!-- corner pixel brackets -->
   <g fill="#79c267">
 
-    <rect
-      x="0"
-      y="13"
-      width="52"
-      height="10"
-    />
+    <rect x="42" y="34" width="28" height="8"/>
+    <rect x="42" y="34" width="8" height="28"/>
 
-    <rect
-      x="80"
-      y="13"
-      width="30"
-      height="10"
-    />
-
-    <rect
-      x="140"
-      y="13"
-      width="18"
-      height="10"
-    />
+    <rect x="1130" y="34" width="28" height="8"/>
+    <rect x="1150" y="34" width="8" height="28"/>
 
   </g>
 
-  <!-- Right blue blocks -->
-  <g fill="#4fa8d8">
 
-    <rect
-      x="1042"
-      y="13"
-      width="18"
-      height="10"
-    />
-
-    <rect
-      x="1090"
-      y="13"
-      width="30"
-      height="10"
-    />
-
-    <rect
-      x="1148"
-      y="13"
-      width="52"
-      height="10"
-    />
-
-  </g>
+  <text
+    x="600"
+    y="73"
+    text-anchor="middle"
+    font-family="Consolas, Menlo, monospace"
+    font-size="23"
+    font-weight="700"
+    fill="#f0e8d9"
+  >
+    build → break → understand → rebuild
+  </text>
 
 </svg>
