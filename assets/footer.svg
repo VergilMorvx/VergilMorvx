@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
+
+  <rect
+    width="1200"
+    height="90"
+    fill="#0b1118"
+  />
+
+  <rect
+    x="22"
+    y="18"
+    width="1156"
+    height="54"
+    fill="#101923"
+    stroke="#26372d"
+    stroke-width="6"
+  />
+
+  <text
+    x="600"
+    y="54"
+    text-anchor="middle"
+    font-family="Consolas, Menlo, monospace"
+    font-size="22"
+    fill="#b7cabc"
+  >
+    build → break → understand → rebuild
+  </text>
+
+</svg>
