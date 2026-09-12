@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b1118"/>
+      <stop offset="0.55" stop-color="#101923"/>
+      <stop offset="1" stop-color="#07100c"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#79c267"/>
+      <stop offset="0.5" stop-color="#b4e08b"/>
+      <stop offset="1" stop-color="#4fa8d8"/>
+    </linearGradient>
+
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path
+        d="M24 0H0V24"
+        fill="none"
+        stroke="#1a2a22"
+        stroke-width="1"
+      />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)" opacity=".55"/>
+
+  <!-- Pixel border -->
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="224"
+    fill="none"
+    stroke="#26372d"
+    stroke-width="8"
+  />
+
+  <rect
+    x="28"
+    y="28"
+    width="1144"
+    height="204"
+    fill="none"
+    stroke="#0a0f0c"
+    stroke-width="4"
+  />
+
+  <!-- Corner accents -->
+  <g fill="#79c267">
+
+    <rect x="18" y="18" width="38" height="8"/>
+    <rect x="18" y="18" width="8" height="38"/>
+
+    <rect x="1144" y="18" width="38" height="8"/>
+    <rect x="1174" y="18" width="8" height="38"/>
+
+    <rect x="18" y="234" width="38" height="8"/>
+    <rect x="18" y="204" width="8" height="38"/>
+
+    <rect x="1144" y="234" width="38" height="8"/>
+    <rect x="1174" y="204" width="8" height="38"/>
+
+  </g>
+
+  <!-- Pixel motif -->
+  <g opacity=".95">
+
+    <rect x="76" y="72" width="30" height="30" fill="#79c267"/>
+    <rect x="108" y="72" width="30" height="30" fill="#4f8f4b"/>
+
+    <rect x="76" y="104" width="30" height="30" fill="#4f8f4b"/>
+    <rect x="108" y="104" width="30" height="30" fill="#2f6235"/>
+
+    <rect x="76" y="136" width="30" height="30" fill="#4fa8d8"/>
+    <rect x="108" y="136" width="30" height="30" fill="#377493"/>
+
+  </g>
+
+  <text
+    x="175"
+    y="112"
+    font-family="Consolas, Menlo, monospace"
+    font-size="56"
+    font-weight="700"
+    fill="#f2f7f3"
+  >
+    VERGILMORVX
+  </text>
+
+  <rect
+    x="176"
+    y="130"
+    width="620"
+    height="8"
+    fill="url(#accent)"
+  />
+
+  <text
+    x="176"
+    y="174"
+    font-family="Consolas, Menlo, monospace"
+    font-size="22"
+    fill="#a9c9b0"
+  >
+    reverse engineering • automation • open source
+  </text>
+
+  <text
+    x="176"
+    y="205"
+    font-family="Consolas, Menlo, monospace"
+    font-size="18"
+    fill="#78958a"
+  >
+    build → break → understand → rebuild
+  </text>
+
+  <!-- Right icon -->
+  <g transform="translate(1010 74)">
+
+    <rect
+      width="80"
+      height="80"
+      fill="#0d1712"
+      stroke="#324c3b"
+      stroke-width="6"
+    />
+
+    <rect x="14" y="14" width="22" height="22" fill="#79c267"/>
+    <rect x="44" y="14" width="22" height="22" fill="#4fa8d8"/>
+
+    <rect x="14" y="44" width="22" height="22" fill="#4fa8d8"/>
+    <rect x="44" y="44" width="22" height="22" fill="#79c267"/>
+
+  </g>
+
+</svg>
