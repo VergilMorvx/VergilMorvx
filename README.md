@@ -5,7 +5,10 @@
 <br/>
 
 <a href="https://github.com/VergilMorvx">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Python+%E2%80%A2+Automation+%E2%80%A2+Open+Source;Building+tools+for+real-world+problems;Reverse+engineering+%E2%80%A2+Modding+%E2%80%A2+Experimentation;Breaking+things+apart+to+understand+them" alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Python+%E2%80%A2+C%2B%2B+%E2%80%A2+Open+Source;Reverse+Engineering+%E2%80%A2+Automation+%E2%80%A2+Tooling;Static+Recompilation+%E2%80%A2+Modding+%E2%80%A2+Experimentation;Breaking+things+apart+to+understand+them"
+    alt="Typing SVG"
+  />
 </a>
 
 <br/>
@@ -23,17 +26,22 @@
 class Vergil:
     def __init__(self):
         self.focus = [
+            "reverse engineering",
             "automation",
             "open-source tooling",
-            "reverse engineering",
+            "static recompilation",
             "modding & experimentation"
         ]
 
-        self.languages = ["Python", "JavaScript"]
+        self.languages = [
+            "Python",
+            "C++",
+            "JavaScript"
+        ]
 
         self.projects = [
+            "MKVSDC: Resurrektion",
             "Steamer",
-            "MKvsDC Resurrection",
             "username-analysis-tool"
         ]
 
@@ -47,11 +55,14 @@ class Vergil:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,html,css,qt,sqlite,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,cpp,cmake,qt,sqlite,git,github,vscode,windows&theme=dark" />
 
 <br/><br/>
 
-<img width="100%" src="https://www.gitskins.com/api/section/stack?username=VergilMorvx&theme=neon&style=aura" />
+<img
+  width="100%"
+  src="https://www.gitskins.com/api/section/stack?username=VergilMorvx&theme=neon&style=aura"
+/>
 
 </div>
 
@@ -61,47 +72,47 @@ class Vergil:
 
 <div align="center">
 
-<a href="https://github.com/SteamerLua/Steamer">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=SteamerLua&repo=Steamer&theme=github_dark&hide_border=true&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9&bg_color=0D1117" />
-</a>
-
-<a href="https://github.com/VergilMorvx/username-analysis-tool">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=VergilMorvx&repo=username-analysis-tool&theme=github_dark&hide_border=true&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9&bg_color=0D1117" />
-</a>
-
-<br/>
-
-<a href="https://github.com/VergilMorvx/MKvsDC-Resurrection">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=VergilMorvx&repo=MKvsDC-Resurrection&theme=github_dark&hide_border=true&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9&bg_color=0D1117" />
-</a>
+<img
+  width="100%"
+  src="https://www.gitskins.com/api/section/projects?username=VergilMorvx&theme=neon&style=aura"
+  alt="Featured Projects"
+/>
 
 </div>
 
 <br/>
 
-### `01 // Steamer`
+### `01 // MKVSDC: Resurrektion`
 
-Open-source Windows tooling built around Steam `.lua` workflows, manifest management, and automated update checking.
+**Static recompilation of Mortal Kombat vs. DC Universe for modern 64-bit Windows.**
 
-Original concept & workflow by **VergilMorvx** · co-maintained with **alhelfi**.
+Translates the original Xbox 360 PowerPC executable into native C++ ahead-of-time and maps the Xenon platform's systems onto modern PC APIs including Direct3D 12, SDL3 audio, and a native virtual filesystem.
 
-`Python` `PyQt6` `SQLite` `Selenium` `Automation`
+[**→ View MKVSDC: Resurrektion**](https://github.com/VergilMorvx/MKVSDC-Resurrektion)
+
+`C++` `Reverse Engineering` `PowerPC` `Direct3D 12` `CMake` `Static Recompilation`
 
 <br/>
 
-### `02 // MKvsDC Resurrection`
+### `02 // Steamer`
 
-A revival project centered around **Mortal Kombat vs. DC Universe** — digging back into the game, its systems, assets, and the possibilities left inside it.
+An open-source Windows desktop tool for managing Steam `.lua` workflows, injecting configuration files, tracking ManifestIDs, and checking for updates through public SteamDB data.
 
-`Reverse Engineering` `Modding` `Game Research`
+Original idea & workflow by **VergilMorvx** · co-maintained with **alhelfi**.
+
+[**→ View Steamer**](https://github.com/SteamerLua/Steamer)
+
+`Python` `PyQt6` `SQLite` `Selenium` `Beautiful Soup` `Automation`
 
 <br/>
 
 ### `03 // username-analysis-tool`
 
-Python tooling for generating username variations and assisting open-source username research across the web.
+A Python utility for generating comprehensive username variations and performing Google dorking using Selenium or SerpAPI.
 
-`Python` `Selenium` `Automation` `OSINT`
+[**→ View username-analysis-tool**](https://github.com/VergilMorvx/username-analysis-tool)
+
+`Python` `Selenium` `SerpAPI` `OSINT` `Automation`
 
 <br/>
 
@@ -109,11 +120,17 @@ Python tooling for generating username variations and assisting open-source user
 
 <div align="center">
 
-<img width="100%" src="https://www.gitskins.com/api/section/stats?username=VergilMorvx&theme=neon&style=aura" />
+<img
+  width="100%"
+  src="https://www.gitskins.com/api/section/stats?username=VergilMorvx&theme=neon&style=aura"
+/>
 
 <br/>
 
-<img width="100%" src="https://www.gitskins.com/api/section/heatmap?username=VergilMorvx&theme=neon&style=aura" />
+<img
+  width="100%"
+  src="https://www.gitskins.com/api/section/heatmap?username=VergilMorvx&theme=neon&style=aura"
+/>
 
 </div>
 
@@ -124,9 +141,18 @@ Python tooling for generating username variations and assisting open-source user
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake.svg">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution snake"
+    src="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake.svg"
+  />
 </picture>
 
 </div>
@@ -150,7 +176,9 @@ Python tooling for generating username variations and assisting open-source user
 <br/><br/>
 
 <a href="https://github.com/VergilMorvx">
-  <img src="https://img.shields.io/badge/GitHub-VergilMorvx-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+  <img
+    src="https://img.shields.io/badge/GitHub-VergilMorvx-0D1117?style=for-the-badge&logo=github&logoColor=white"
+  />
 </a>
 
 </div>
