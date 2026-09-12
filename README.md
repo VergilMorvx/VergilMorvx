@@ -14,7 +14,7 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=VergilMorvx&style=for-the-badge&color=4f8f4b&label=PROFILE+VIEWS" />
-<img src="https://img.shields.io/github/followers/VergilMorvx?style=for-the-badge&logo=github&color=101923&labelColor=101923" />
+<img src="https://img.shields.io/github/followers/VergilMorvx?style=for-the-badge&logo=github&color=292929&labelColor=171717" />
 
 </div>
 
@@ -24,32 +24,11 @@
 
 ## `> whoami`
 
-```python
-class Vergil:
-    def __init__(self):
-        self.focus = [
-            "reverse engineering",
-            "automation",
-            "open-source tooling",
-            "static recompilation",
-            "modding & experimentation"
-        ]
+<div align="center">
 
-        self.languages = [
-            "Python",
-            "C++",
-            "JavaScript"
-        ]
+<img width="100%" src="./assets/whoami.svg" alt="whoami" />
 
-        self.projects = [
-            "MKVSDC: Resurrektion",
-            "Steamer",
-            "username-analysis-tool"
-        ]
-
-    def philosophy(self):
-        return "If I want to understand it, I'll probably take it apart first."
-```
+</div>
 
 <br/>
 
@@ -59,65 +38,7 @@ class Vergil:
 
 <div align="center">
 
-<table>
-<tr>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=cpp&theme=dark"/>
-<br/>
-<sub>C++</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=python&theme=dark"/>
-<br/>
-<sub>Python</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=cmake&theme=dark"/>
-<br/>
-<sub>CMake</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=qt&theme=dark"/>
-<br/>
-<sub>Qt</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=sqlite&theme=dark"/>
-<br/>
-<sub>SQLite</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=js&theme=dark"/>
-<br/>
-<sub>JavaScript</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=git&theme=dark"/>
-<br/>
-<sub>Git</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=github&theme=dark"/>
-<br/>
-<sub>GitHub</sub>
-</td>
-
-<td align="center">
-<img width="42" src="https://skillicons.dev/icons?i=windows&theme=dark"/>
-<br/>
-<sub>Windows</sub>
-</td>
-
-</tr>
-</table>
+<img width="100%" src="./assets/stack.svg" alt="Tech Stack" />
 
 </div>
 
@@ -127,51 +48,25 @@ class Vergil:
 
 ## `> featured_projects`
 
-<table>
-<tr>
+<div align="center">
 
-<td width="33%" valign="top">
+<a href="https://github.com/VergilMorvx/MKVSDC-Resurrektion">
+  <img width="100%" src="./assets/project_mkvsdc.svg" alt="MKVSDC Resurrektion" />
+</a>
 
-### `01 // MKVSDC: Resurrektion`
+<br/>
 
-**Static recompilation of Mortal Kombat vs. DC Universe for modern 64-bit Windows.**
+<a href="https://github.com/SteamerLua/Steamer">
+  <img width="100%" src="./assets/project_steamer.svg" alt="Steamer" />
+</a>
 
-Translates the original Xbox 360 PowerPC executable into native C++ ahead-of-time and maps the Xenon platform's systems onto modern PC APIs including Direct3D 12, SDL3 audio, and a native virtual filesystem.
+<br/>
 
-[**→ View repository**](https://github.com/VergilMorvx/MKVSDC-Resurrektion)
+<a href="https://github.com/VergilMorvx/username-analysis-tool">
+  <img width="100%" src="./assets/project_username.svg" alt="username-analysis-tool" />
+</a>
 
-`C++` `Reverse Engineering` `PowerPC` `D3D12` `CMake`
-
-</td>
-
-<td width="33%" valign="top">
-
-### `02 // Steamer`
-
-An open-source Windows desktop tool for managing Steam `.lua` workflows, injecting configuration files, tracking ManifestIDs, and checking for updates through public SteamDB data.
-
-Original idea & workflow by **VergilMorvx** · co-maintained with **alhelfi**.
-
-[**→ View repository**](https://github.com/SteamerLua/Steamer)
-
-`Python` `PyQt6` `SQLite` `Selenium` `Automation`
-
-</td>
-
-<td width="33%" valign="top">
-
-### `03 // username-analysis-tool`
-
-A Python utility for generating comprehensive username variations and performing Google dorking using Selenium or SerpAPI.
-
-[**→ View repository**](https://github.com/VergilMorvx/username-analysis-tool)
-
-`Python` `Selenium` `SerpAPI` `OSINT` `Automation`
-
-</td>
-
-</tr>
-</table>
+</div>
 
 <br/>
 
@@ -181,17 +76,19 @@ A Python utility for generating comprehensive username variations and performing
 
 <div align="center">
 
+<img width="100%" src="./assets/frame_top.svg" alt="" />
+
 <img
-  width="100%"
+  width="96%"
   src="https://www.gitskins.com/api/section/stats?username=VergilMorvx&theme=forest&style=aura"
 />
 
-<br/>
-
 <img
-  width="100%"
+  width="96%"
   src="https://www.gitskins.com/api/section/heatmap?username=VergilMorvx&theme=forest&style=aura"
 />
+
+<img width="100%" src="./assets/frame_bottom.svg" alt="" />
 
 </div>
 
@@ -203,22 +100,25 @@ A Python utility for generating comprehensive username variations and performing
 
 <div align="center">
 
+<img width="100%" src="./assets/frame_top.svg" alt="" />
+
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake-dark.svg"
   />
-
   <source
     media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake.svg"
   />
-
   <img
+    width="96%"
     alt="github contribution snake"
     src="https://raw.githubusercontent.com/VergilMorvx/VergilMorvx/output/github-contribution-grid-snake.svg"
   />
 </picture>
+
+<img width="100%" src="./assets/frame_bottom.svg" alt="" />
 
 </div>
 
@@ -234,7 +134,7 @@ A Python utility for generating comprehensive username variations and performing
 
 <a href="https://github.com/VergilMorvx">
   <img
-    src="https://img.shields.io/badge/GitHub-VergilMorvx-101923?style=for-the-badge&logo=github&logoColor=white"
+    src="https://img.shields.io/badge/GitHub-VergilMorvx-292929?style=for-the-badge&logo=github&logoColor=white"
   />
 </a>
 
