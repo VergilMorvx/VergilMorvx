@@ -1,85 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0b1118"/>
-      <stop offset="0.55" stop-color="#101923"/>
-      <stop offset="1" stop-color="#07100c"/>
-    </linearGradient>
 
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#79c267"/>
-      <stop offset="0.5" stop-color="#b4e08b"/>
-      <stop offset="1" stop-color="#4fa8d8"/>
-    </linearGradient>
+    <!-- dark stone tile -->
+    <pattern id="stone" width="64" height="64" patternUnits="userSpaceOnUse">
+      <rect width="64" height="64" fill="#2b2f33"/>
 
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path
-        d="M24 0H0V24"
-        fill="none"
-        stroke="#1a2a22"
-        stroke-width="1"
-      />
+      <rect x="2" y="2" width="28" height="28" fill="#3a3f44"/>
+      <rect x="34" y="2" width="28" height="28" fill="#32373b"/>
+
+      <rect x="2" y="34" width="28" height="28" fill="#303438"/>
+      <rect x="34" y="34" width="28" height="28" fill="#40454a"/>
+
+      <rect x="7" y="7" width="8" height="5" fill="#4b5055"/>
+      <rect x="20" y="18" width="6" height="7" fill="#25292c"/>
+
+      <rect x="42" y="8" width="9" height="6" fill="#454a4f"/>
+      <rect x="52" y="21" width="6" height="5" fill="#25292c"/>
+
+      <rect x="8" y="43" width="7" height="6" fill="#454a4f"/>
+      <rect x="21" y="52" width="6" height="5" fill="#222629"/>
+
+      <rect x="43" y="40" width="10" height="7" fill="#51565b"/>
+      <rect x="51" y="53" width="6" height="5" fill="#282c30"/>
+
+      <path d="M32 0V64M0 32H64" stroke="#171a1d" stroke-width="4"/>
     </pattern>
+
+
+    <!-- dirt -->
+    <pattern id="dirt" width="48" height="48" patternUnits="userSpaceOnUse">
+
+      <rect width="48" height="48" fill="#754c2c"/>
+
+      <rect x="4" y="6" width="8" height="7" fill="#8d5d37"/>
+      <rect x="18" y="3" width="6" height="6" fill="#59381f"/>
+      <rect x="34" y="8" width="9" height="8" fill="#93623b"/>
+
+      <rect x="8" y="22" width="7" height="9" fill="#52331e"/>
+      <rect x="22" y="18" width="9" height="7" fill="#9d6840"/>
+      <rect x="37" y="25" width="6" height="7" fill="#59371f"/>
+
+      <rect x="3" y="38" width="10" height="6" fill="#98613a"/>
+      <rect x="19" y="34" width="6" height="9" fill="#56361e"/>
+      <rect x="31" y="39" width="10" height="5" fill="#875631"/>
+
+    </pattern>
+
+
+    <!-- grass -->
+    <pattern id="grass" width="48" height="18" patternUnits="userSpaceOnUse">
+
+      <rect width="48" height="18" fill="#5f9e46"/>
+
+      <rect x="0" y="0" width="8" height="6" fill="#73b655"/>
+      <rect x="8" y="4" width="8" height="8" fill="#4e8938"/>
+      <rect x="16" y="0" width="8" height="10" fill="#79b95a"/>
+      <rect x="24" y="5" width="8" height="8" fill="#568f3e"/>
+      <rect x="32" y="1" width="8" height="7" fill="#6eae50"/>
+      <rect x="40" y="4" width="8" height="8" fill="#477d34"/>
+
+      <rect x="5" y="12" width="5" height="6" fill="#426f30"/>
+      <rect x="21" y="10" width="5" height="8" fill="#4f8537"/>
+      <rect x="37" y="11" width="5" height="7" fill="#3e6f2d"/>
+
+    </pattern>
+
+
+    <linearGradient id="textAccent" x1="0" x2="1">
+      <stop offset="0" stop-color="#7acb5a"/>
+      <stop offset="0.55" stop-color="#b7e879"/>
+      <stop offset="1" stop-color="#57b4e5"/>
+    </linearGradient>
+
   </defs>
 
-  <rect width="1200" height="260" fill="url(#bg)"/>
-  <rect width="1200" height="260" fill="url(#grid)" opacity=".55"/>
 
-  <!-- Pixel border -->
+  <!-- stone background -->
+  <rect width="1200" height="300" fill="url(#stone)"/>
+
+
+  <!-- outer block border -->
   <rect
-    x="18"
-    y="18"
-    width="1164"
-    height="224"
+    x="12"
+    y="12"
+    width="1176"
+    height="276"
     fill="none"
-    stroke="#26372d"
+    stroke="#111416"
+    stroke-width="12"
+  />
+
+  <rect
+    x="24"
+    y="24"
+    width="1152"
+    height="252"
+    fill="none"
+    stroke="#53595d"
+    stroke-width="6"
+  />
+
+
+  <!-- dirt / grass blocks -->
+  <g>
+
+    <rect x="42" y="188" width="120" height="72" fill="url(#dirt)"/>
+    <rect x="42" y="170" width="120" height="18" fill="url(#grass)"/>
+
+    <rect x="162" y="212" width="72" height="48" fill="url(#dirt)"/>
+    <rect x="162" y="194" width="72" height="18" fill="url(#grass)"/>
+
+    <rect x="1038" y="188" width="120" height="72" fill="url(#dirt)"/>
+    <rect x="1038" y="170" width="120" height="18" fill="url(#grass)"/>
+
+    <rect x="966" y="212" width="72" height="48" fill="url(#dirt)"/>
+    <rect x="966" y="194" width="72" height="18" fill="url(#grass)"/>
+
+  </g>
+
+
+  <!-- center inset -->
+  <rect
+    x="150"
+    y="52"
+    width="900"
+    height="172"
+    fill="#0b1118"
+    stroke="#13181c"
     stroke-width="8"
   />
 
   <rect
-    x="28"
-    y="28"
-    width="1144"
-    height="204"
-    fill="none"
-    stroke="#0a0f0c"
-    stroke-width="4"
+    x="160"
+    y="62"
+    width="880"
+    height="152"
+    fill="#10171d"
+    stroke="#40484d"
+    stroke-width="3"
   />
 
-  <!-- Corner accents -->
+
+  <!-- pixel corner ornaments -->
   <g fill="#79c267">
 
-    <rect x="18" y="18" width="38" height="8"/>
-    <rect x="18" y="18" width="8" height="38"/>
+    <rect x="175" y="78" width="22" height="22"/>
+    <rect x="201" y="78" width="22" height="22" fill="#4f8f4b"/>
 
-    <rect x="1144" y="18" width="38" height="8"/>
-    <rect x="1174" y="18" width="8" height="38"/>
-
-    <rect x="18" y="234" width="38" height="8"/>
-    <rect x="18" y="204" width="8" height="38"/>
-
-    <rect x="1144" y="234" width="38" height="8"/>
-    <rect x="1174" y="204" width="8" height="38"/>
+    <rect x="977" y="78" width="22" height="22"/>
+    <rect x="951" y="78" width="22" height="22" fill="#4f8f4b"/>
 
   </g>
 
-  <!-- Pixel motif -->
-  <g opacity=".95">
 
-    <rect x="76" y="72" width="30" height="30" fill="#79c267"/>
-    <rect x="108" y="72" width="30" height="30" fill="#4f8f4b"/>
-
-    <rect x="76" y="104" width="30" height="30" fill="#4f8f4b"/>
-    <rect x="108" y="104" width="30" height="30" fill="#2f6235"/>
-
-    <rect x="76" y="136" width="30" height="30" fill="#4fa8d8"/>
-    <rect x="108" y="136" width="30" height="30" fill="#377493"/>
-
-  </g>
-
+  <!-- title -->
   <text
-    x="175"
-    y="112"
+    x="600"
+    y="124"
+    text-anchor="middle"
     font-family="Consolas, Menlo, monospace"
     font-size="56"
     font-weight="700"
@@ -88,50 +167,49 @@
     VERGILMORVX
   </text>
 
+
+  <!-- pixel accent -->
   <rect
-    x="176"
-    y="130"
-    width="620"
+    x="340"
+    y="144"
+    width="520"
     height="8"
-    fill="url(#accent)"
+    fill="url(#textAccent)"
   />
 
+
   <text
-    x="176"
-    y="174"
+    x="600"
+    y="181"
+    text-anchor="middle"
     font-family="Consolas, Menlo, monospace"
-    font-size="22"
-    fill="#a9c9b0"
+    font-size="21"
+    fill="#b4cab9"
   >
     reverse engineering • automation • open source
   </text>
 
+
   <text
-    x="176"
-    y="205"
+    x="600"
+    y="207"
+    text-anchor="middle"
     font-family="Consolas, Menlo, monospace"
-    font-size="18"
+    font-size="17"
     fill="#78958a"
   >
     build → break → understand → rebuild
   </text>
 
-  <!-- Right icon -->
-  <g transform="translate(1010 74)">
 
-    <rect
-      width="80"
-      height="80"
-      fill="#0d1712"
-      stroke="#324c3b"
-      stroke-width="6"
-    />
+  <!-- tiny pixel highlights -->
+  <g fill="#57b4e5">
 
-    <rect x="14" y="14" width="22" height="22" fill="#79c267"/>
-    <rect x="44" y="14" width="22" height="22" fill="#4fa8d8"/>
+    <rect x="277" y="142" width="10" height="10"/>
+    <rect x="295" y="142" width="10" height="10"/>
 
-    <rect x="14" y="44" width="22" height="22" fill="#4fa8d8"/>
-    <rect x="44" y="44" width="22" height="22" fill="#79c267"/>
+    <rect x="895" y="142" width="10" height="10"/>
+    <rect x="913" y="142" width="10" height="10"/>
 
   </g>
 
