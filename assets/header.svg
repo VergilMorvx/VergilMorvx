@@ -1,216 +1,161 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
 
-  <defs>
-
-    <!-- dark stone tile -->
-    <pattern id="stone" width="64" height="64" patternUnits="userSpaceOnUse">
-      <rect width="64" height="64" fill="#2b2f33"/>
-
-      <rect x="2" y="2" width="28" height="28" fill="#3a3f44"/>
-      <rect x="34" y="2" width="28" height="28" fill="#32373b"/>
-
-      <rect x="2" y="34" width="28" height="28" fill="#303438"/>
-      <rect x="34" y="34" width="28" height="28" fill="#40454a"/>
-
-      <rect x="7" y="7" width="8" height="5" fill="#4b5055"/>
-      <rect x="20" y="18" width="6" height="7" fill="#25292c"/>
-
-      <rect x="42" y="8" width="9" height="6" fill="#454a4f"/>
-      <rect x="52" y="21" width="6" height="5" fill="#25292c"/>
-
-      <rect x="8" y="43" width="7" height="6" fill="#454a4f"/>
-      <rect x="21" y="52" width="6" height="5" fill="#222629"/>
-
-      <rect x="43" y="40" width="10" height="7" fill="#51565b"/>
-      <rect x="51" y="53" width="6" height="5" fill="#282c30"/>
-
-      <path d="M32 0V64M0 32H64" stroke="#171a1d" stroke-width="4"/>
-    </pattern>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="310"
+     viewBox="0 0 1200 310">
 
 
-    <!-- dirt -->
-    <pattern id="dirt" width="48" height="48" patternUnits="userSpaceOnUse">
+<defs>
 
-      <rect width="48" height="48" fill="#754c2c"/>
+  <pattern id="stone" width="48" height="48"
+           patternUnits="userSpaceOnUse">
 
-      <rect x="4" y="6" width="8" height="7" fill="#8d5d37"/>
-      <rect x="18" y="3" width="6" height="6" fill="#59381f"/>
-      <rect x="34" y="8" width="9" height="8" fill="#93623b"/>
+    <rect width="48" height="48" fill="#353535"/>
 
-      <rect x="8" y="22" width="7" height="9" fill="#52331e"/>
-      <rect x="22" y="18" width="9" height="7" fill="#9d6840"/>
-      <rect x="37" y="25" width="6" height="7" fill="#59371f"/>
+    <rect x="2" y="2" width="21" height="21" fill="#444444"/>
+    <rect x="25" y="2" width="21" height="21" fill="#2d2d2d"/>
 
-      <rect x="3" y="38" width="10" height="6" fill="#98613a"/>
-      <rect x="19" y="34" width="6" height="9" fill="#56361e"/>
-      <rect x="31" y="39" width="10" height="5" fill="#875631"/>
+    <rect x="2" y="25" width="21" height="21" fill="#303030"/>
+    <rect x="25" y="25" width="21" height="21" fill="#494949"/>
 
-    </pattern>
+    <rect x="7" y="7" width="6" height="5" fill="#555555"/>
+    <rect x="17" y="15" width="5" height="5" fill="#242424"/>
 
+    <rect x="31" y="8" width="7" height="5" fill="#505050"/>
+    <rect x="38" y="17" width="5" height="5" fill="#222222"/>
 
-    <!-- grass -->
-    <pattern id="grass" width="48" height="18" patternUnits="userSpaceOnUse">
+    <rect x="8" y="31" width="6" height="6" fill="#505050"/>
+    <rect x="18" y="38" width="5" height="5" fill="#252525"/>
 
-      <rect width="48" height="18" fill="#5f9e46"/>
+    <rect x="31" y="31" width="8" height="6" fill="#585858"/>
 
-      <rect x="0" y="0" width="8" height="6" fill="#73b655"/>
-      <rect x="8" y="4" width="8" height="8" fill="#4e8938"/>
-      <rect x="16" y="0" width="8" height="10" fill="#79b95a"/>
-      <rect x="24" y="5" width="8" height="8" fill="#568f3e"/>
-      <rect x="32" y="1" width="8" height="7" fill="#6eae50"/>
-      <rect x="40" y="4" width="8" height="8" fill="#477d34"/>
-
-      <rect x="5" y="12" width="5" height="6" fill="#426f30"/>
-      <rect x="21" y="10" width="5" height="8" fill="#4f8537"/>
-      <rect x="37" y="11" width="5" height="7" fill="#3e6f2d"/>
-
-    </pattern>
+  </pattern>
 
 
-    <linearGradient id="textAccent" x1="0" x2="1">
-      <stop offset="0" stop-color="#7acb5a"/>
-      <stop offset="0.55" stop-color="#b7e879"/>
-      <stop offset="1" stop-color="#57b4e5"/>
-    </linearGradient>
+  <pattern id="dirt" width="48" height="48"
+           patternUnits="userSpaceOnUse">
 
-  </defs>
+    <rect width="48" height="48" fill="#765032"/>
 
+    <rect x="4" y="4" width="8" height="7" fill="#91613b"/>
+    <rect x="18" y="3" width="6" height="6" fill="#50321e"/>
+    <rect x="34" y="7" width="9" height="8" fill="#986840"/>
 
-  <!-- stone background -->
-  <rect width="1200" height="300" fill="url(#stone)"/>
+    <rect x="7" y="21" width="8" height="9" fill="#53351f"/>
+    <rect x="22" y="18" width="9" height="7" fill="#9f6b42"/>
+    <rect x="37" y="25" width="6" height="7" fill="#583821"/>
 
+    <rect x="3" y="38" width="10" height="6" fill="#956039"/>
+    <rect x="20" y="35" width="6" height="8" fill="#54341f"/>
+    <rect x="32" y="39" width="10" height="5" fill="#875832"/>
 
-  <!-- outer block border -->
-  <rect
-    x="12"
-    y="12"
-    width="1176"
-    height="276"
-    fill="none"
-    stroke="#111416"
-    stroke-width="12"
-  />
-
-  <rect
-    x="24"
-    y="24"
-    width="1152"
-    height="252"
-    fill="none"
-    stroke="#53595d"
-    stroke-width="6"
-  />
+  </pattern>
 
 
-  <!-- dirt / grass blocks -->
-  <g>
+  <pattern id="grass" width="48" height="18"
+           patternUnits="userSpaceOnUse">
 
-    <rect x="42" y="188" width="120" height="72" fill="url(#dirt)"/>
-    <rect x="42" y="170" width="120" height="18" fill="url(#grass)"/>
+    <rect width="48" height="18" fill="#5e9c43"/>
 
-    <rect x="162" y="212" width="72" height="48" fill="url(#dirt)"/>
-    <rect x="162" y="194" width="72" height="18" fill="url(#grass)"/>
+    <rect x="0" y="0" width="8" height="7" fill="#73b556"/>
+    <rect x="8" y="4" width="8" height="9" fill="#4f8838"/>
+    <rect x="16" y="0" width="8" height="10" fill="#79ba59"/>
+    <rect x="24" y="5" width="8" height="8" fill="#548c3d"/>
+    <rect x="32" y="1" width="8" height="8" fill="#6cab4e"/>
+    <rect x="40" y="4" width="8" height="9" fill="#477a32"/>
 
-    <rect x="1038" y="188" width="120" height="72" fill="url(#dirt)"/>
-    <rect x="1038" y="170" width="120" height="18" fill="url(#grass)"/>
-
-    <rect x="966" y="212" width="72" height="48" fill="url(#dirt)"/>
-    <rect x="966" y="194" width="72" height="18" fill="url(#grass)"/>
-
-  </g>
+  </pattern>
 
 
-  <!-- center inset -->
-  <rect
-    x="150"
-    y="52"
-    width="900"
-    height="172"
-    fill="#0b1118"
-    stroke="#13181c"
-    stroke-width="8"
-  />
+  <linearGradient id="slot"
+                  x1="0" y1="0"
+                  x2="1" y2="1">
 
-  <rect
-    x="160"
-    y="62"
-    width="880"
-    height="152"
-    fill="#10171d"
-    stroke="#40484d"
-    stroke-width="3"
-  />
+    <stop offset="0" stop-color="#8b8b8b"/>
+    <stop offset="1" stop-color="#6d6d6d"/>
+
+  </linearGradient>
+
+</defs>
 
 
-  <!-- pixel corner ornaments -->
-  <g fill="#79c267">
+<rect width="1200" height="310" fill="url(#stone)"/>
 
-    <rect x="175" y="78" width="22" height="22"/>
-    <rect x="201" y="78" width="22" height="22" fill="#4f8f4b"/>
+<!-- outer black edge -->
+<rect x="10" y="10"
+      width="1180" height="290"
+      fill="none"
+      stroke="#111"
+      stroke-width="12"/>
 
-    <rect x="977" y="78" width="22" height="22"/>
-    <rect x="951" y="78" width="22" height="22" fill="#4f8f4b"/>
+<!-- block grass/dirt floor -->
+<rect x="0" y="246"
+      width="1200"
+      height="64"
+      fill="url(#dirt)"/>
 
-  </g>
+<rect x="0" y="228"
+      width="1200"
+      height="18"
+      fill="url(#grass)"/>
 
+<!-- GUI panel -->
+<rect x="126" y="48"
+      width="948"
+      height="162"
+      fill="#c6c6c6"
+      stroke="#1f1f1f"
+      stroke-width="8"/>
 
-  <!-- title -->
-  <text
-    x="600"
-    y="124"
-    text-anchor="middle"
-    font-family="Consolas, Menlo, monospace"
-    font-size="56"
-    font-weight="700"
-    fill="#f2f7f3"
-  >
-    VERGILMORVX
-  </text>
+<!-- bevel -->
+<path d="M134 202V56H1066"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="6"
+      opacity=".72"/>
 
+<path d="M1066 56V202H134"
+      fill="none"
+      stroke="#555555"
+      stroke-width="6"/>
 
-  <!-- pixel accent -->
-  <rect
-    x="340"
-    y="144"
-    width="520"
-    height="8"
-    fill="url(#textAccent)"
-  />
+<!-- inset -->
+<rect x="158" y="74"
+      width="884"
+      height="112"
+      fill="#171717"
+      stroke="#373737"
+      stroke-width="6"/>
 
+<text
+ x="600"
+ y="124"
+ text-anchor="middle"
+ font-family="Consolas, monospace"
+ font-size="54"
+ font-weight="700"
+ fill="#f4f4f4">
+ VERGILMORVX
+</text>
 
-  <text
-    x="600"
-    y="181"
-    text-anchor="middle"
-    font-family="Consolas, Menlo, monospace"
-    font-size="21"
-    fill="#b4cab9"
-  >
-    reverse engineering • automation • open source
-  </text>
+<text
+ x="600"
+ y="158"
+ text-anchor="middle"
+ font-family="Consolas, monospace"
+ font-size="19"
+ fill="#79c267">
+ reverse engineering • automation • open source
+</text>
 
-
-  <text
-    x="600"
-    y="207"
-    text-anchor="middle"
-    font-family="Consolas, Menlo, monospace"
-    font-size="17"
-    fill="#78958a"
-  >
-    build → break → understand → rebuild
-  </text>
-
-
-  <!-- tiny pixel highlights -->
-  <g fill="#57b4e5">
-
-    <rect x="277" y="142" width="10" height="10"/>
-    <rect x="295" y="142" width="10" height="10"/>
-
-    <rect x="895" y="142" width="10" height="10"/>
-    <rect x="913" y="142" width="10" height="10"/>
-
-  </g>
+<text
+ x="600"
+ y="183"
+ text-anchor="middle"
+ font-family="Consolas, monospace"
+ font-size="16"
+ fill="#ababab">
+ build → break → understand → rebuild
+</text>
 
 </svg>

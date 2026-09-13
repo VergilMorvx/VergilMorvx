@@ -1,0 +1,530 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="360"
+     viewBox="0 0 1200 360">
+
+
+<defs>
+
+  <pattern id="stone" width="48" height="48"
+           patternUnits="userSpaceOnUse">
+
+    <rect width="48" height="48" fill="#353535"/>
+
+    <rect x="2" y="2" width="21" height="21" fill="#444444"/>
+    <rect x="25" y="2" width="21" height="21" fill="#2d2d2d"/>
+
+    <rect x="2" y="25" width="21" height="21" fill="#303030"/>
+    <rect x="25" y="25" width="21" height="21" fill="#494949"/>
+
+    <rect x="7" y="7" width="6" height="5" fill="#555555"/>
+    <rect x="17" y="15" width="5" height="5" fill="#242424"/>
+
+    <rect x="31" y="8" width="7" height="5" fill="#505050"/>
+    <rect x="38" y="17" width="5" height="5" fill="#222222"/>
+
+    <rect x="8" y="31" width="6" height="6" fill="#505050"/>
+    <rect x="18" y="38" width="5" height="5" fill="#252525"/>
+
+    <rect x="31" y="31" width="8" height="6" fill="#585858"/>
+
+  </pattern>
+
+
+  <pattern id="dirt" width="48" height="48"
+           patternUnits="userSpaceOnUse">
+
+    <rect width="48" height="48" fill="#765032"/>
+
+    <rect x="4" y="4" width="8" height="7" fill="#91613b"/>
+    <rect x="18" y="3" width="6" height="6" fill="#50321e"/>
+    <rect x="34" y="7" width="9" height="8" fill="#986840"/>
+
+    <rect x="7" y="21" width="8" height="9" fill="#53351f"/>
+    <rect x="22" y="18" width="9" height="7" fill="#9f6b42"/>
+    <rect x="37" y="25" width="6" height="7" fill="#583821"/>
+
+    <rect x="3" y="38" width="10" height="6" fill="#956039"/>
+    <rect x="20" y="35" width="6" height="8" fill="#54341f"/>
+    <rect x="32" y="39" width="10" height="5" fill="#875832"/>
+
+  </pattern>
+
+
+  <pattern id="grass" width="48" height="18"
+           patternUnits="userSpaceOnUse">
+
+    <rect width="48" height="18" fill="#5e9c43"/>
+
+    <rect x="0" y="0" width="8" height="7" fill="#73b556"/>
+    <rect x="8" y="4" width="8" height="9" fill="#4f8838"/>
+    <rect x="16" y="0" width="8" height="10" fill="#79ba59"/>
+    <rect x="24" y="5" width="8" height="8" fill="#548c3d"/>
+    <rect x="32" y="1" width="8" height="8" fill="#6cab4e"/>
+    <rect x="40" y="4" width="8" height="9" fill="#477a32"/>
+
+  </pattern>
+
+
+  <linearGradient id="slot"
+                  x1="0" y1="0"
+                  x2="1" y2="1">
+
+    <stop offset="0" stop-color="#8b8b8b"/>
+    <stop offset="1" stop-color="#6d6d6d"/>
+
+  </linearGradient>
+
+</defs>
+
+
+<rect width="1200"
+      height="360"
+      fill="#0d1117"/>
+
+<!-- main GUI -->
+<rect x="90" y="38"
+      width="1020"
+      height="280"
+      rx="3"
+      fill="#c6c6c6"
+      stroke="#1d1d1d"
+      stroke-width="8"/>
+
+<!-- top/left highlight -->
+<path d="M98 310V46H1102"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="6"/>
+
+<!-- bottom/right shadow -->
+<path d="M1102 46V310H98"
+      fill="none"
+      stroke="#555555"
+      stroke-width="6"/>
+
+<text x="130"
+      y="88"
+      font-family="Consolas, monospace"
+      font-size="20"
+      font-weight="700"
+      fill="#3a3a3a">
+STACK
+</text>
+
+<!-- C++ -->
+<rect x="128" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M133 211
+         V127
+         H217"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M217 127
+         V211
+         H133"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="152" y="140"
+      width="46" height="46"
+      fill="#5d7fbf"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="175"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+C++
+</text>
+
+<text x="175"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+C++
+</text>
+
+<!-- Python -->
+<rect x="236" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M241 211
+         V127
+         H325"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M325 127
+         V211
+         H241"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="260" y="140"
+      width="46" height="46"
+      fill="#e8ce58"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="283"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+Pyt
+</text>
+
+<text x="283"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+Python
+</text>
+
+<!-- CMake -->
+<rect x="344" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M349 211
+         V127
+         H433"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M433 127
+         V211
+         H349"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="368" y="140"
+      width="46" height="46"
+      fill="#d04d45"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="391"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+CMa
+</text>
+
+<text x="391"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+CMake
+</text>
+
+<!-- Qt -->
+<rect x="452" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M457 211
+         V127
+         H541"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M541 127
+         V211
+         H457"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="476" y="140"
+      width="46" height="46"
+      fill="#62c86a"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="499"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+Qt
+</text>
+
+<text x="499"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+Qt
+</text>
+
+<!-- SQLite -->
+<rect x="560" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M565 211
+         V127
+         H649"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M649 127
+         V211
+         H565"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="584" y="140"
+      width="46" height="46"
+      fill="#61a7cf"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="607"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+SQL
+</text>
+
+<text x="607"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+SQLite
+</text>
+
+<!-- JavaScript -->
+<rect x="668" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M673 211
+         V127
+         H757"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M757 127
+         V211
+         H673"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="692" y="140"
+      width="46" height="46"
+      fill="#e6d34c"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="715"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+Jav
+</text>
+
+<text x="715"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+JavaScript
+</text>
+
+<!-- Git -->
+<rect x="776" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M781 211
+         V127
+         H865"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M865 127
+         V211
+         H781"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="800" y="140"
+      width="46" height="46"
+      fill="#e36343"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="823"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+Git
+</text>
+
+<text x="823"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+Git
+</text>
+
+<!-- GitHub -->
+<rect x="884" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M889 211
+         V127
+         H973"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M973 127
+         V211
+         H889"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="908" y="140"
+      width="46" height="46"
+      fill="#dddddd"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="931"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+Git
+</text>
+
+<text x="931"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+GitHub
+</text>
+
+<!-- Windows -->
+<rect x="992" y="122"
+      width="94" height="94"
+      fill="#8b8b8b"
+      stroke="#373737"
+      stroke-width="6"/>
+
+<path d="M997 211
+         V127
+         H1081"
+      fill="none"
+      stroke="#dedede"
+      stroke-width="5"/>
+
+<path d="M1081 127
+         V211
+         H997"
+      fill="none"
+      stroke="#555555"
+      stroke-width="5"/>
+
+<rect x="1016" y="140"
+      width="46" height="46"
+      fill="#5db5e8"
+      stroke="#222"
+      stroke-width="4"/>
+
+<text x="1039"
+      y="171"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="15"
+      font-weight="700"
+      fill="#101010">
+Win
+</text>
+
+<text x="1039"
+      y="205"
+      text-anchor="middle"
+      font-family="Consolas, monospace"
+      font-size="11"
+      fill="#222">
+Windows
+</text>
+
+</svg>

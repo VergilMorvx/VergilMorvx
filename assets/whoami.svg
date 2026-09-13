@@ -1,8 +1,8 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200"
-     height="66"
-     viewBox="0 0 1200 66">
+     height="530"
+     viewBox="0 0 1200 530">
 
 
 <defs>
@@ -79,41 +79,85 @@
 </defs>
 
 
-<rect width="1200" height="66" fill="#0d1117"/>
+<rect width="1200"
+      height="530"
+      fill="#0d1117"/>
 
-<rect y="13"
-      width="1200"
-      height="48"
-      fill="url(#stone)"/>
+<!-- GUI -->
+<rect x="48" y="28"
+      width="1104"
+      height="474"
+      fill="#c6c6c6"
+      stroke="#1f1f1f"
+      stroke-width="8"/>
 
-<rect y="7"
-      width="180"
-      height="18"
-      fill="url(#grass)"/>
+<!-- highlight -->
+<path d="M56 494V36H1144"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="7"/>
 
-<rect y="25"
-      width="180"
-      height="36"
-      fill="url(#dirt)"/>
+<!-- shadow -->
+<path d="M1144 36V494H56"
+      fill="none"
+      stroke="#555555"
+      stroke-width="7"/>
 
-<rect x="1020"
-      y="7"
-      width="180"
-      height="18"
-      fill="url(#grass)"/>
+<!-- inner code slot -->
+<rect x="86" y="66"
+      width="1028"
+      height="398"
+      fill="#171717"
+      stroke="#373737"
+      stroke-width="6"/>
 
-<rect x="1020"
-      y="25"
-      width="180"
-      height="36"
-      fill="url(#dirt)"/>
+<g font-family="Consolas, monospace"
+   font-size="22">
 
-<path d="M0 13H1200"
-      stroke="#111"
-      stroke-width="5"/>
+<text x="125" y="112" fill="#72b7ff">
+class
+</text>
 
-<path d="M0 61H1200"
-      stroke="#111"
-      stroke-width="5"/>
+<text x="192" y="112" fill="#f3d56b">
+Vergil:
+</text>
+
+<text x="125" y="151" fill="#d7d7d7">
+    def __init__(self):
+</text>
+
+<text x="125" y="190" fill="#d7d7d7">
+        self.focus = [
+</text>
+
+<text x="125" y="226" fill="#83d17a">
+            "reverse engineering",
+</text>
+
+<text x="125" y="260" fill="#83d17a">
+            "automation",
+</text>
+
+<text x="125" y="294" fill="#83d17a">
+            "open-source tooling",
+</text>
+
+<text x="125" y="328" fill="#83d17a">
+            "static recompilation",
+</text>
+
+<text x="125" y="362" fill="#83d17a">
+            "modding &amp; experimentation"
+</text>
+
+<text x="125" y="396" fill="#d7d7d7">
+        ]
+</text>
+
+<text x="125" y="434" fill="#d7d7d7">
+    philosophy = "If I want to understand it, I'll probably take it apart first."
+</text>
+
+</g>
 
 </svg>
