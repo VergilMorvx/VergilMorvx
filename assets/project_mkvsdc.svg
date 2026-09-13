@@ -1,211 +1,264 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200"
-     height="350"
-     viewBox="0 0 1200 350">
+     height="360"
+     viewBox="0 0 1200 360">
 
 
 <defs>
 
-  <pattern id="stone" width="48" height="48"
+  <pattern id="stone"
+           width="48"
+           height="48"
            patternUnits="userSpaceOnUse">
 
     <rect width="48" height="48" fill="#353535"/>
 
-    <rect x="2" y="2" width="21" height="21" fill="#444444"/>
-    <rect x="25" y="2" width="21" height="21" fill="#2d2d2d"/>
+    <rect x="2"  y="2"  width="21" height="21" fill="#444444"/>
+    <rect x="25" y="2"  width="21" height="21" fill="#2d2d2d"/>
 
-    <rect x="2" y="25" width="21" height="21" fill="#303030"/>
+    <rect x="2"  y="25" width="21" height="21" fill="#303030"/>
     <rect x="25" y="25" width="21" height="21" fill="#494949"/>
 
-    <rect x="7" y="7" width="6" height="5" fill="#555555"/>
+    <rect x="7"  y="7"  width="6" height="5" fill="#555555"/>
     <rect x="17" y="15" width="5" height="5" fill="#242424"/>
 
-    <rect x="31" y="8" width="7" height="5" fill="#505050"/>
+    <rect x="31" y="8"  width="7" height="5" fill="#505050"/>
     <rect x="38" y="17" width="5" height="5" fill="#222222"/>
 
-    <rect x="8" y="31" width="6" height="6" fill="#505050"/>
+    <rect x="8"  y="31" width="6" height="6" fill="#505050"/>
     <rect x="18" y="38" width="5" height="5" fill="#252525"/>
 
     <rect x="31" y="31" width="8" height="6" fill="#585858"/>
 
   </pattern>
 
-
-  <pattern id="dirt" width="48" height="48"
-           patternUnits="userSpaceOnUse">
-
-    <rect width="48" height="48" fill="#765032"/>
-
-    <rect x="4" y="4" width="8" height="7" fill="#91613b"/>
-    <rect x="18" y="3" width="6" height="6" fill="#50321e"/>
-    <rect x="34" y="7" width="9" height="8" fill="#986840"/>
-
-    <rect x="7" y="21" width="8" height="9" fill="#53351f"/>
-    <rect x="22" y="18" width="9" height="7" fill="#9f6b42"/>
-    <rect x="37" y="25" width="6" height="7" fill="#583821"/>
-
-    <rect x="3" y="38" width="10" height="6" fill="#956039"/>
-    <rect x="20" y="35" width="6" height="8" fill="#54341f"/>
-    <rect x="32" y="39" width="10" height="5" fill="#875832"/>
-
-  </pattern>
-
-
-  <pattern id="grass" width="48" height="18"
-           patternUnits="userSpaceOnUse">
-
-    <rect width="48" height="18" fill="#5e9c43"/>
-
-    <rect x="0" y="0" width="8" height="7" fill="#73b556"/>
-    <rect x="8" y="4" width="8" height="9" fill="#4f8838"/>
-    <rect x="16" y="0" width="8" height="10" fill="#79ba59"/>
-    <rect x="24" y="5" width="8" height="8" fill="#548c3d"/>
-    <rect x="32" y="1" width="8" height="8" fill="#6cab4e"/>
-    <rect x="40" y="4" width="8" height="9" fill="#477a32"/>
-
-  </pattern>
-
-
-  <linearGradient id="slot"
-                  x1="0" y1="0"
-                  x2="1" y2="1">
-
-    <stop offset="0" stop-color="#8b8b8b"/>
-    <stop offset="1" stop-color="#6d6d6d"/>
-
-  </linearGradient>
-
 </defs>
 
 
 <rect width="1200"
-      height="350"
+      height="360"
       fill="#0d1117"/>
 
-<!-- GUI container -->
-<rect x="55" y="30"
-      width="1090"
-      height="290"
-      fill="#c6c6c6"
-      stroke="#1d1d1d"
-      stroke-width="8"/>
 
-<path d="M63 312V38H1137"
-      fill="none"
-      stroke="#ffffff"
-      stroke-width="6"/>
+<!-- Minecraft-style GUI outer body -->
+<rect
+    x="54"
+    y="26"
+    width="1092"
+    height="306"
+    fill="#c6c6c6"
+    stroke="#1d1d1d"
+    stroke-width="8"
+/>
 
-<path d="M1137 38V312H63"
-      fill="none"
-      stroke="#555555"
-      stroke-width="6"/>
 
-<!-- large slot -->
-<rect x="90" y="72"
-      width="210"
-      height="210"
-      fill="#8b8b8b"
-      stroke="#373737"
-      stroke-width="7"/>
+<!-- GUI light bevel -->
+<path
+    d="M62 324
+       V34
+       H1138"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="7"
+/>
 
-<path d="M97 275V79H293"
-      fill="none"
-      stroke="#dedede"
-      stroke-width="6"/>
 
-<path d="M293 79V275H97"
-      fill="none"
-      stroke="#555555"
-      stroke-width="6"/>
+<!-- GUI shadow bevel -->
+<path
+    d="M1138 34
+       V324
+       H62"
+    fill="none"
+    stroke="#555555"
+    stroke-width="7"
+/>
 
-<!-- item block -->
-<rect x="135" y="118"
-      width="120"
-      height="120"
-      fill="#477bb8"
-      stroke="#222"
-      stroke-width="7"/>
 
-<rect x="150" y="133"
-      width="38"
-      height="38"
-      fill="#ffffff"
-      opacity=".20"/>
+<!-- project item slot -->
+<rect
+    x="92"
+    y="70"
+    width="240"
+    height="240"
+    fill="#8b8b8b"
+    stroke="#373737"
+    stroke-width="7"
+/>
 
-<rect x="201" y="184"
-      width="38"
-      height="38"
-      fill="#111111"
-      opacity=".20"/>
 
-<text x="195"
-      y="191"
-      text-anchor="middle"
-      font-family="Consolas, monospace"
-      font-size="31"
-      font-weight="700"
-      fill="#f5f5f5">
+<!-- inventory-slot bevel -->
+<path
+    d="M99 303
+       V77
+       H325"
+    fill="none"
+    stroke="#dedede"
+    stroke-width="6"
+/>
+
+<path
+    d="M325 77
+       V303
+       H99"
+    fill="none"
+    stroke="#555555"
+    stroke-width="6"
+/>
+
+
+<!-- project block icon -->
+<rect
+    x="136"
+    y="113"
+    width="152"
+    height="152"
+    fill="#3d6da4"
+    stroke="#202020"
+    stroke-width="7"
+/>
+
+
+<!-- pixel/block texture -->
+<rect
+    x="149"
+    y="126"
+    width="54"
+    height="54"
+    fill="#5689c3"
+/>
+
+<rect
+    x="221"
+    y="126"
+    width="54"
+    height="54"
+    fill="#305981"
+/>
+
+<rect
+    x="149"
+    y="198"
+    width="54"
+    height="54"
+    fill="#305981"
+/>
+
+<rect
+    x="221"
+    y="198"
+    width="54"
+    height="54"
+    fill="#5689c3"
+/>
+
+
+<!-- project number -->
+<text
+    x="212"
+    y="202"
+    text-anchor="middle"
+    font-family="Consolas, monospace"
+    font-size="31"
+    font-weight="700"
+    fill="#ffffff">
 01
 </text>
 
-<!-- project information -->
-<text x="340"
-      y="102"
-      font-family="Consolas, monospace"
-      font-size="16"
-      font-weight="700"
-      fill="#555555">
+
+<!-- RIGHT SIDE DARK INFO WINDOW -->
+
+<rect
+    x="365"
+    y="70"
+    width="735"
+    height="240"
+    fill="#202020"
+    stroke="#373737"
+    stroke-width="6"
+/>
+
+
+<!-- tooltip-style lighter top line -->
+<rect
+    x="376"
+    y="81"
+    width="713"
+    height="4"
+    fill="#555555"
+/>
+
+
+<!-- number -->
+<text
+    x="390"
+    y="116"
+    font-family="Consolas, monospace"
+    font-size="15"
+    fill="#8b8b8b">
 01 //
 </text>
 
-<text x="340"
-      y="142"
-      font-family="Consolas, monospace"
-      font-size="30"
-      font-weight="700"
-      fill="#222222">
+
+<!-- TITLE -->
+<text
+    x="390"
+    y="153"
+    font-family="Consolas, monospace"
+    font-size="27"
+    font-weight="700"
+    fill="#f4f4f4">
 MKVSDC: Resurrektion
 </text>
 
 
-<text x="180"
-      y="180"
-      font-family="Arial, sans-serif"
-      font-size="19"
-      fill="#d7d7d7">
+<!-- DESCRIPTION -->
+
+<text
+    x="390"
+    y="186"
+    font-family="Arial, sans-serif"
+    font-size="18"
+    fill="#d6d6d6">
 Static recompilation of Mortal Kombat vs. DC Universe
 </text>
 
-<text x="180"
-      y="210"
-      font-family="Arial, sans-serif"
-      font-size="19"
-      fill="#d7d7d7">
+<text
+    x="390"
+    y="215"
+    font-family="Arial, sans-serif"
+    font-size="18"
+    fill="#d6d6d6">
 for modern 64-bit Windows.
 </text>
 
-<text x="180"
-      y="240"
-      font-family="Arial, sans-serif"
-      font-size="19"
-      fill="#d7d7d7">
+<text
+    x="390"
+    y="244"
+    font-family="Arial, sans-serif"
+    font-size="18"
+    fill="#d6d6d6">
 Xbox 360 PowerPC → native C++ ahead-of-time.
 </text>
 
 
-<rect x="340"
-      y="270"
-      width="755"
-      height="32"
-      fill="#373737"/>
 
-<text x="356"
-      y="292"
-      font-family="Consolas, monospace"
-      font-size="14"
-      fill="#a8e28b">
-C++  Reverse Engineering  PowerPC  D3D12  CMake
+<!-- tag bar -->
+<rect
+    x="390"
+    y="270"
+    width="684"
+    height="24"
+    fill="#111111"
+/>
+
+<text
+    x="405"
+    y="287"
+    font-family="Consolas, monospace"
+    font-size="12"
+    fill="#9cff78">
+C++   Reverse Engineering   PowerPC   D3D12   CMake
 </text>
 
 </svg>
